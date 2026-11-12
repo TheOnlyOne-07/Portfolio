@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="20" fill="#0b080c"/>
+  <rect x="48" y="42" width="704" height="416" rx="16" fill="#120d1a" stroke="#5eead4" stroke-opacity="0.28"/>
+  <text x="78" y="80" fill="#5eead4" font-family="monospace" font-size="14">RATION DISTRIBUTION AUTH // ANDROID + SUPABASE</text>
+  <rect x="120" y="114" width="230" height="314" rx="24" fill="#1a1228" stroke="#c2a4ff" stroke-width="2"/>
+  <rect x="144" y="146" width="182" height="56" rx="12" fill="#5eead4" fill-opacity="0.16" stroke="#5eead4"/>
+  <text x="235" y="180" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="15" font-weight="700">Aadhaar / OTP</text>
+  <rect x="144" y="220" width="182" height="68" rx="12" fill="#ffffff0d"/>
+  <text x="235" y="260" text-anchor="middle" fill="#c2a4ff" font-family="monospace" font-size="22" font-weight="700">• • • • • •</text>
+  <rect x="144" y="310" width="182" height="54" rx="27" fill="#5eead4"/>
+  <text x="235" y="342" text-anchor="middle" fill="#0b080c" font-family="system-ui,sans-serif" font-size="15" font-weight="700">VERIFY ✓</text>
+  <rect x="394" y="136" width="320" height="270" rx="14" fill="#171122" stroke="#ffffff1a"/>
+  <text x="422" y="176" fill="#c2a4ff" font-family="monospace" font-size="13">ACCESSIBLE PUBLIC WELFARE UI</text>
+  <text x="422" y="216" fill="#fff" font-family="system-ui,sans-serif" font-size="22" font-weight="700">Low-Literacy First</text>
+  <text x="422" y="256" fill="#eae5ec" font-family="system-ui,sans-serif" font-size="14">• High-contrast visual prompts</text>
+  <text x="422" y="286" fill="#eae5ec" font-family="system-ui,sans-serif" font-size="14">• Aadhaar &amp; OTP verification</text>
+  <text x="422" y="316" fill="#eae5ec" font-family="system-ui,sans-serif" font-size="14">• Real-time Supabase ledger</text>
+  <rect x="422" y="346" width="210" height="34" rx="8" fill="#5eead4" fill-opacity="0.14" stroke="#5eead4" stroke-opacity="0.4"/>
+  <text x="527" y="368" text-anchor="middle" fill="#5eead4" font-family="monospace" font-size="12">SUPABASE AUTH READY</text>
+</svg>

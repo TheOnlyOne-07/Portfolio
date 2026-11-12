@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#191024"/><stop offset="100%" stop-color="#0b080c"/></linearGradient>
+    <linearGradient id="b1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#c2a4ff"/><stop offset="100%" stop-color="#fb8dff"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="20" fill="url(#g1)"/>
+  <circle cx="640" cy="110" r="140" fill="#a87cff" opacity="0.14"/>
+  <rect x="48" y="42" width="704" height="416" rx="16" fill="#120d19" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <circle cx="78" cy="70" r="6" fill="#fb8dff"/><circle cx="98" cy="70" r="6" fill="#c2a4ff"/><circle cx="118" cy="70" r="6" fill="#6b5d82"/>
+  <text x="150" y="75" fill="#c2a4ff" font-family="monospace" font-size="14">DRISHTI // CUSTOM LLM PIPELINE v2.4</text>
+  <line x1="48" y1="96" x2="752" y2="96" stroke="#c2a4ff" stroke-opacity="0.15"/>
+  <rect x="78" y="126" width="210" height="296" rx="12" fill="#181124" stroke="#ffffff18"/>
+  <text x="98" y="156" fill="#c2a4ff" font-family="system-ui,sans-serif" font-size="13" font-weight="700">ATTENTION HEADS</text>
+  <circle cx="130" cy="210" r="10" fill="#fb8dff"/><circle cx="236" cy="210" r="10" fill="#c2a4ff"/>
+  <circle cx="130" cy="275" r="10" fill="#c2a4ff"/><circle cx="236" cy="275" r="10" fill="#fb8dff"/>
+  <circle cx="130" cy="340" r="10" fill="#7f40ff"/><circle cx="236" cy="340" r="10" fill="#c2a4ff"/>
+  <line x1="140" y1="210" x2="226" y2="275" stroke="#c2a4ff" stroke-opacity="0.5" stroke-width="2"/>
+  <line x1="140" y1="275" x2="226" y2="210" stroke="#fb8dff" stroke-opacity="0.5" stroke-width="2"/>
+  <line x1="140" y1="275" x2="226" y2="340" stroke="#c2a4ff" stroke-opacity="0.5" stroke-width="2"/>
+  <line x1="140" y1="340" x2="226" y2="275" stroke="#7f40ff" stroke-opacity="0.7" stroke-width="2"/>
+  <rect x="312" y="126" width="410" height="190" rx="12" fill="#181124" stroke="#c2a4ff" stroke-opacity="0.22"/>
+  <rect x="332" y="148" width="260" height="38" rx="10" fill="#c2a4ff" fill-opacity="0.16"/>
+  <text x="348" y="172" fill="#eae5ec" font-family="system-ui,sans-serif" font-size="13">Explain transformer KV caching?</text>
+  <rect x="370" y="202" width="332" height="92" rx="10" fill="#ffffff0d"/>
+  <rect x="386" y="220" width="290" height="10" rx="5" fill="url(#b1)" opacity="0.8"/>
+  <rect x="386" y="242" width="240" height="10" rx="5" fill="#eae5ec" opacity="0.45"/>
+  <rect x="386" y="264" width="195" height="10" rx="5" fill="#eae5ec" opacity="0.3"/>
+  <rect x="312" y="334" width="410" height="88" rx="12" fill="#181124" stroke="#ffffff18"/>
+  <text x="334" y="366" fill="#c2a4ff" font-family="monospace" font-size="13">TOKENS/SEC: 142.8  |  LATENCY: 38ms</text>
+  <rect x="334" y="384" width="366" height="12" rx="6" fill="#ffffff12"/>
+  <rect x="334" y="384" width="286" height="12" rx="6" fill="url(#b1)"/>
+</svg>

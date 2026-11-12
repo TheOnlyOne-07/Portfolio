@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#2c1747"/>
+      <stop offset="60%" stop-color="#120c18"/>
+      <stop offset="100%" stop-color="#0b080c"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c2a4ff"/>
+      <stop offset="100%" stop-color="#fb8dff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <circle cx="400" cy="210" r="145" fill="#c2a4ff" opacity="0.1"/>
+  <circle cx="400" cy="210" r="105" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="8 6" opacity="0.5"/>
+  <circle cx="400" cy="185" r="58" fill="#1b1228" stroke="#c2a4ff" stroke-width="3"/>
+  <path d="M350 182 Q400 130 450 182" fill="#c2a4ff" opacity="0.25"/>
+  <circle cx="382" cy="186" r="5" fill="#c2a4ff"/>
+  <circle cx="418" cy="186" r="5" fill="#c2a4ff"/>
+  <path d="M385 207 Q400 219 415 207" fill="none" stroke="#fb8dff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M290 380 C295 295 340 265 400 265 C460 265 505 295 510 380" fill="#171022" stroke="url(#accent)" stroke-width="3"/>
+  <rect x="315" y="395" width="170" height="36" rx="18" fill="#c2a4ff" fill-opacity="0.14" stroke="#c2a4ff" stroke-opacity="0.45"/>
+  <text x="400" y="418" text-anchor="middle" fill="#eae5ec" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="2">TEJAS HIRAN • TH</text>
+</svg>

@@ -1,0 +1,188 @@
+.resume-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  background: rgba(11, 8, 12, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.resume-modal-shell {
+  width: 100%;
+  max-width: 860px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background: #140f1a;
+  border: 1px solid rgba(194, 164, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.7), 0 0 60px rgba(194, 164, 255, 0.15);
+  overflow: hidden;
+}
+
+.resume-modal-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  background: rgba(194, 164, 255, 0.08);
+  border-bottom: 1px solid rgba(194, 164, 255, 0.15);
+}
+
+.resume-modal-toolbar h3 {
+  margin: 0;
+  font-size: 15px;
+  color: var(--accentColor);
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.resume-modal-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.resume-action-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid rgba(194, 164, 255, 0.3);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.resume-action-btn.primary {
+  background: var(--accentColor);
+  color: #0b080c;
+  border-color: var(--accentColor);
+}
+
+.resume-action-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 18px rgba(194, 164, 255, 0.28);
+}
+
+.resume-sheet {
+  padding: 36px 40px;
+  overflow-y: auto;
+  color: #eae5ec;
+  line-height: 1.55;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.resume-sheet-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(194, 164, 255, 0.2);
+  margin-bottom: 24px;
+}
+
+.resume-sheet-header h1 {
+  margin: 0 0 4px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.resume-sheet-header .resume-role {
+  color: var(--accentColor);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.resume-contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  font-size: 13px;
+  color: #ffffffb3;
+}
+
+.resume-section {
+  margin-bottom: 24px;
+}
+
+.resume-section h4 {
+  margin: 0 0 12px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accentColor);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 6px;
+}
+
+.resume-entry {
+  margin-bottom: 16px;
+}
+
+.resume-entry-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 15px;
+}
+
+.resume-entry-sub {
+  font-size: 13px;
+  color: var(--accentColor);
+  margin-bottom: 6px;
+}
+
+.resume-entry ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 13px;
+  color: #ffffffcc;
+}
+
+.resume-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.resume-skill-box {
+  padding: 14px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(194, 164, 255, 0.14);
+}
+
+.resume-skill-box strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.resume-skill-box span {
+  font-size: 13px;
+  color: #ffffffb8;
+}
+
+@media (max-width: 640px) {
+  .resume-sheet {
+    padding: 20px;
+  }
+  .resume-contact-list {
+    align-items: flex-start;
+  }
+}

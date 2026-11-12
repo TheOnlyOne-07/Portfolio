@@ -1,0 +1,26 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import { portfolioConfig } from "../config/portfolio";
+
+const CallToAction: React.FC = () => {
+  return (
+    <div className="cta-section">
+      <div className="cta-buttons">
+        <Link to="/play" className="cta-btn cta-btn-play" data-cursor="disable">
+          Play With Me &rarr;
+        </Link>
+        <a
+          href={portfolioConfig.contact.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-btn cta-btn-hire"
+          data-cursor="disable"
+        >
+          Hire Me &rarr;
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default CallToAction;

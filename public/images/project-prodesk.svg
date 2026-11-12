@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="20" fill="#0b080c"/>
+  <rect x="48" y="42" width="704" height="416" rx="16" fill="#130e1b" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="78" y="82" fill="#c2a4ff" font-family="monospace" font-size="15">PRODESK // FULL-STACK COMMERCE</text>
+  <rect x="78" y="116" width="196" height="286" rx="14" fill="#191225" stroke="#ffffff1a"/>
+  <rect x="96" y="136" width="160" height="120" rx="10" fill="#251a38"/>
+  <rect x="96" y="276" width="120" height="14" rx="7" fill="#fff" opacity="0.85"/>
+  <rect x="96" y="302" width="80" height="12" rx="6" fill="#c2a4ff" opacity="0.7"/>
+  <rect x="96" y="346" width="160" height="36" rx="10" fill="#c2a4ff"/>
+  <rect x="302" y="116" width="196" height="286" rx="14" fill="#191225" stroke="#c2a4ff" stroke-opacity="0.45"/>
+  <rect x="320" y="136" width="160" height="120" rx="10" fill="#2b1b42"/>
+  <rect x="320" y="276" width="130" height="14" rx="7" fill="#fff" opacity="0.85"/>
+  <rect x="320" y="302" width="90" height="12" rx="6" fill="#fb8dff" opacity="0.8"/>
+  <rect x="320" y="346" width="160" height="36" rx="10" fill="#fb8dff"/>
+  <rect x="526" y="116" width="196" height="286" rx="14" fill="#191225" stroke="#ffffff1a"/>
+  <text x="548" y="154" fill="#c2a4ff" font-family="monospace" font-size="13">STRIPE CHECKOUT</text>
+  <text x="548" y="200" fill="#fff" font-family="system-ui,sans-serif" font-size="28" font-weight="700">$249.00</text>
+  <rect x="548" y="230" width="152" height="10" rx="5" fill="#ffffff1f"/>
+  <rect x="548" y="254" width="122" height="10" rx="5" fill="#ffffff1f"/>
+  <rect x="548" y="346" width="152" height="36" rx="10" fill="#ffffff1f" stroke="#c2a4ff"/>
+</svg>

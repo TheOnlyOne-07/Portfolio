@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="20" fill="#0b080c"/>
+  <rect x="48" y="42" width="704" height="416" rx="16" fill="#120d1a" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="78" y="80" fill="#c2a4ff" font-family="monospace" font-size="14">TERRA // H3 HEXAGONAL GPS TERRITORY CAPTURE</text>
+  <g transform="translate(88,112)" stroke-width="2">
+    <polygon points="90,20 135,45 135,95 90,120 45,95 45,45" fill="#5eead4" fill-opacity="0.22" stroke="#5eead4"/>
+    <polygon points="180,20 225,45 225,95 180,120 135,95 135,45" fill="#c2a4ff" fill-opacity="0.24" stroke="#c2a4ff"/>
+    <polygon points="270,20 315,45 315,95 270,120 225,95 225,45" fill="#1a1326" stroke="#ffffff26"/>
+    <polygon points="135,95 180,120 180,170 135,195 90,170 90,120" fill="#5eead4" fill-opacity="0.34" stroke="#5eead4"/>
+    <polygon points="225,95 270,120 270,170 225,195 180,170 180,120" fill="#c2a4ff" fill-opacity="0.34" stroke="#c2a4ff"/>
+    <polygon points="315,95 360,120 360,170 315,195 270,170 270,120" fill="#1a1326" stroke="#ffffff26"/>
+    <polygon points="90,170 135,195 135,245 90,270 45,245 45,195" fill="#1a1326" stroke="#ffffff26"/>
+    <polygon points="180,170 225,195 225,245 180,270 135,245 135,195" fill="#5eead4" fill-opacity="0.22" stroke="#5eead4"/>
+    <polygon points="270,170 315,195 315,245 270,270 225,245 225,195" fill="#c2a4ff" fill-opacity="0.2" stroke="#c2a4ff"/>
+    <circle cx="180" cy="145" r="8" fill="#fff"/>
+  </g>
+  <rect x="478" y="114" width="244" height="304" rx="14" fill="#181124" stroke="#ffffff1a"/>
+  <text x="500" y="150" fill="#5eead4" font-family="monospace" font-size="12">H3-JS + LEAFLET ENGINE</text>
+  <text x="500" y="190" fill="#fff" font-family="system-ui,sans-serif" font-size="24" font-weight="700">Hex Capture</text>
+  <text x="500" y="226" fill="#eae5ec" font-family="system-ui,sans-serif" font-size="13">• React + Vite + Capacitor</text>
+  <text x="500" y="252" fill="#eae5ec" font-family="system-ui,sans-serif" font-size="13">• Firebase Real-Time Sync</text>
+  <text x="500" y="278" fill="#eae5ec" font-family="system-ui,sans-serif" font-size="13">• Full PRD / TRD &amp; Security</text>
+  <rect x="500" y="334" width="200" height="44" rx="10" fill="#5eead4" fill-opacity="0.15" stroke="#5eead4" stroke-opacity="0.45"/>
+  <text x="600" y="361" text-anchor="middle" fill="#5eead4" font-family="monospace" font-size="12" font-weight="700">RES-9 HEX GRID LIVE</text>
+</svg>

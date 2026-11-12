@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="20" fill="#0b080c"/>
+  <rect x="48" y="42" width="704" height="416" rx="16" fill="#120d1a" stroke="#c2a4ff" stroke-opacity="0.28"/>
+  <text x="78" y="80" fill="#c2a4ff" font-family="monospace" font-size="14">AUTOMATED COLD OUTREACH // NODE.JS + PYTHON PIPELINE</text>
+  <rect x="78" y="120" width="142" height="122" rx="12" fill="#1b1328" stroke="#c2a4ff" stroke-opacity="0.45"/>
+  <text x="149" y="166" text-anchor="middle" fill="#c2a4ff" font-family="monospace" font-size="12">SCRAPER</text>
+  <text x="149" y="196" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="16" font-weight="700">Apollo.io</text>
+  <line x1="220" y1="181" x2="250" y2="181" stroke="#5eead4" stroke-width="2.5"/>
+  <rect x="250" y="120" width="142" height="122" rx="12" fill="#1b1328" stroke="#5eead4" stroke-opacity="0.45"/>
+  <text x="321" y="166" text-anchor="middle" fill="#5eead4" font-family="monospace" font-size="12">FUZZY PYTHON</text>
+  <text x="321" y="196" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="16" font-weight="700">5,000+ Leads</text>
+  <line x1="392" y1="181" x2="422" y2="181" stroke="#c2a4ff" stroke-width="2.5"/>
+  <rect x="422" y="120" width="142" height="122" rx="12" fill="#1b1328" stroke="#c2a4ff" stroke-opacity="0.45"/>
+  <text x="493" y="166" text-anchor="middle" fill="#c2a4ff" font-family="monospace" font-size="12">CRON + SMTP</text>
+  <text x="493" y="196" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="16" font-weight="700">Nodemailer</text>
+  <line x1="564" y1="181" x2="594" y2="181" stroke="#5eead4" stroke-width="2.5"/>
+  <rect x="594" y="120" width="128" height="122" rx="12" fill="#1b1328" stroke="#5eead4" stroke-opacity="0.45"/>
+  <text x="658" y="166" text-anchor="middle" fill="#5eead4" font-family="monospace" font-size="12">DETECTOR</text>
+  <text x="658" y="196" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="16" font-weight="700">IMAP Sync</text>
+  <rect x="78" y="274" width="644" height="148" rx="14" fill="#171122" stroke="#ffffff1a"/>
+  <text x="104" y="314" fill="#5eead4" font-family="monospace" font-size="13">SQLITE LEDGER // DEDUPLICATED &amp; SCHEDULED</text>
+  <rect x="104" y="338" width="590" height="14" rx="7" fill="#ffffff12"/>
+  <rect x="104" y="338" width="465" height="14" rx="7" fill="#c2a4ff"/>
+  <rect x="104" y="368" width="590" height="14" rx="7" fill="#ffffff12"/>
+  <rect x="104" y="368" width="380" height="14" rx="7" fill="#5eead4"/>
+</svg>
