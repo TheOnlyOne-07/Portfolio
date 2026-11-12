@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { LoadingProvider } from "./context/LoadingProvider";
 import "./styles/index.css";
 
@@ -53,6 +54,7 @@ const App: React.FC = () => {
           }
         />
       </Routes>
+      <SpeedInsights />
     </BrowserRouter>
   );
 };
